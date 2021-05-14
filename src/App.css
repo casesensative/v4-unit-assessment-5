@@ -84,3 +84,11 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+@media (max-width: 400px) {
+  .dark-button {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+  }
+}

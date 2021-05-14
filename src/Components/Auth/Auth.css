@@ -71,3 +71,17 @@
     justify-content: space-around;
     width: 55%;
   }
+
+  @media (min-width: 400px) {
+    .auth-container {
+      border-radius: 0px;
+      box-shadow: none;
+      background-image: none;
+    }
+    .auth-input-box {
+      width: 300px;
+    }
+    input {
+      width: 300px;
+    }
+  }
